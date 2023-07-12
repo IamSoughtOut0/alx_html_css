@@ -49,34 +49,312 @@ header div div a{
 
 main{
     border:2px solid black;
-    height: inherit;
+    height:100%;
     margin-top:10px;
     padding:5px;
 }
 
+/*main correction*/
 
 main section{
     border: 1px solid black;
     padding: 10px;
+    /*display:flex;
+    justify-content:center;*/
+}
+
+/*main solution*/
+
+.hero-section #seperate-div1{
+    border:1px solid black;
+    display:inline-block;
+}
+
+.hero-section #seperate-div1 h1{
+    border:1px solid black;
+    margin:0px;
+}
+
+.hero-section #seperate-div1 p{
+    border:1px solid black;
+    margin:0px;
+}
+
+.hero-section #seperate-div1 button{
+    border:1px solid black;
+    margin:0px;
+}
+
+/*start of sepearate div 2*/
+
+.hero-section #seperate-div2{
+border:1px solid black;
+}
+
+/*section solution*/
+
+#seperate-div2 #second-div{
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    padding:5px;
+}
+
+#seperate-div2 h1{
+    text-align: center;
+    border:1px solid blue;
+}
+
+#seperate-div2 #second-div div{
+    border:1px solid black;
+    width:80px;
+    /*display:block;*/
+    padding:5px;
+
+}
+#seperate-div2 #second-div div p{
+    border:1px solid greenyellow;
+    margin:2px;
+    padding:5px;
+}
+
+#seperate-div2 #second-div div p{
+    border:1px solid blue;
+}
+
+
+#seperate-div2 #second-div div p{
+    border:1px solid purple;
+}
+
+/* end of  seperate div 2*/
+
+/*start of great section*/
+main .great-section{
+    border:1px solid black;
+   
+    
+
+}
+
+ .great-section #content-div{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    
+}
+
+.great-section #content-div h6{
+    padding:5px;
+    
+}
+
+.great-section #content-div div{
+    border:1px solid black;
+    padding:5px;
+    
+}
+
+.great-section #content-div div p{
+    border:1px solid black;
+    margin:2px;
+    padding:5px;   
+}
+
+/*end of great section*/
+
+
+/*start of awe-section*/
+ .awe-section{
+    border:1px solid black;
+}
+
+.awe-section .content-div{
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+
+}
+
+.awe-section .content-div div{
+    border:1px solid black;
+    width:120px;
+}
+
+.awe-section .content-div div p{
+    border:1px solid black;
+    margin:2px;
+    padding:10px;
+}
+
+.content-div #inner-div{
+    display:flex;
+    width:100px;
+    margin:2px;
+    padding:3px;
+}
+    
+
+.content-div #inner-div2{
+    display:flex;
+    width:100px;
+    margin:2px;
+    padding:3px;
+}
+
+.content-div #inner-div h6,h6{
+    border:1px solid black;
+    padding:10px;
+ }
+
+.content-div #inner-div2 h6,h6{
+   border:1px solid black;
+   margin:0px;
+}
+
+.awe-section h1{
+    text-align:center;
+}
+
+/*end of awe-section*/
+
+
+/*start of FAQ*/
+
+main .faq{
+    border:1px solid black;
+}
+
+.faq .faq1{
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+}
+
+
+.faq .faq1 div{
+    border:1px solid black;
+}
+
+.faq .faq1 div p{
+    border:1px solid black;
+    width:70px;
+    margin: 2px;;
+    padding:5px;
+}
+
+.faq h1{
+    text-align:center;
+    border:1px solid black;
+    margin:5x;
+}
+
+/*end of faq*/
+
+/*start of faq*/
+main .faq2{
+    border:1px solid black;
+}
+
+.faq2 #break{
+    border:1px solid black;
     display:flex;
     justify-content: center;
 }
 
-#hero-section div{
+.faq2 #h1{
+    text-align: center;
+    border:1px solid
+}
+
+.faq2 #break #inn{
+    border:1px solid black;
+    margin:2px;
+    width:150px;
+}
+
+.faq2 #break #inn2{
+    border:1px solid black;
+    margin:2px;
+    width:150px;
+
+}
+
+.faq2 #break #inn div{
     border:1px solid black;
 }
 
-#hero-section div h1{
+.faq2 #break #inn2 div{
     border:1px solid black;
-    margin:0px;
 }
 
-#hero-section div p{
+.faq2 #break #inn div #it{
     border:1px solid black;
-    margin:0px;
+    padding:9px;
+    margin:2px;
 }
 
-#hero-section div button{
+.faq2 #break #inn2 div #it{
     border:1px solid black;
-    margin:0px;
+    padding:9px;
+    margin:2px;
 }
+
+/*end of faq2*/
+
+/*begiining of footer*/
+
+footer{
+    border: 2px solid black;
+    height:100px;
+    padding:5px;
+    }
+    
+    footer div{
+        border:1px solid black;
+        /*height:inherit;*/
+        display:flex;
+       justify-content: space-between;
+        padding:10px
+    }
+    
+    .footer-logo{
+        border: 1px solid red;
+        width:250px;
+    }
+    
+    footer div div a{
+        border: 1px solid green;
+        width:inherit;
+        display:flex;
+        justify-content: center;
+    }
+    
+    #menu-links{
+        width:400px;
+        padding:0px;
+        display:flex;
+        gap: 10px;
+        justify-content:center;
+    }
+    
+    #menu-links a{
+        border:1px solid red;
+        width:100px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+
+    footer h2{
+        text-align:center;
+        border:1px solid black
+    }
+/*end of footer*/
+
+
+
+
+
